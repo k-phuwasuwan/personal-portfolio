@@ -1,0 +1,13 @@
+:root {
+    --primary: #256af4;
+    --primary-hover: #1d56cc;
+    --primary-alpha: rgba(37, 106, 244, 0.1);
+    --primary-border: rgba(37, 106, 244, 0.2);
+    --background-dark: #101622;
+    --background-dark-soft: #182234;
+    --background-card: rgba(24, 34, 52, 0.5);
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --transition-speed: 0.3s;
+}

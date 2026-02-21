@@ -8,26 +8,26 @@ header {
 .nav-container {
     max-width: 600px;
     margin: 0 auto;
-    height: 4rem;
+    height: 64px;
     display: flex;
     align-items: center;
-    padding: 0 1.5rem;
+    padding: 0 24px;
 }
 
 .nav-links {
     display: flex;
-    gap: 1.5rem;
+    gap: 24px;
     margin-left: auto;
 }
 
 .nav-link {
-    font-size: 0.875rem;
+    font-size: 14px;
     font-weight: 500;
     transition: color var(--transition-speed);
 }
 
 .nav-link:hover {
-    color: var(--primary-color);
+    color: var(--primary);
 }
 
 

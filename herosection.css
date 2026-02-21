@@ -1,0 +1,104 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.profile-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-glow {
+    position: absolute;
+    inset: -4px;
+    background: var(--primary);
+    border-radius: 9999px;
+    filter: blur(8px);
+    opacity: 0.25;
+    transition: opacity var(--transition-speed);
+}
+
+.profile-wrapper:hover .profile-glow {
+    opacity: 0.5;
+}
+
+.profile-image-container {
+    position: relative;
+    background: var(--background-dark);
+    padding: 4px;
+    border-radius: 9999px;
+}
+
+.profile-img {
+    width: 128px;
+    height: 128px;
+    border-radius: 9999px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+
+.profile-img:hover {
+    filter: grayscale(0%);
+}
+
+.hero-title {
+    font-size: 30px;
+    font-weight: 320;
+    letter-spacing: -0.025em; /* ตัวอักษรชิดกันนิดๆ */
+}
+
+.hero-description {
+    color: var(--text-muted);
+    font-size: 16px;
+    max-width: 320px;
+    margin: 12px auto 0;
+}
+
+.hero-action {
+    color: var(--text-muted);
+    font-size: 16px;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 12px;
+    padding-top: 16px;
+}
+
+.btn {
+    /* display: inline-block; */
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all var(--transition-speed);
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    /* box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25); */
+    text-decoration: none;
+}
+
+.btn:active {
+    transform: scale(0.95); /* ย่อลงเมื่อกด */
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+    box-shadow: 0 10px 15px -3px rgba(37, 106, 244, 0.2);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+    background-color: var(--background-dark-soft);
+    color: var(--text-main);
+}
+
+.btn-secondary:hover {
+    background-color: #243046;
+}
