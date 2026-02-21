@@ -28,7 +28,7 @@
 }
 
 .profile-wrapper:hover .profile-glow {
-    opacity: 0.5;
+    opacity: 0.5; /* ความโปร่งใส */
 }
 
 .profile-image-container {
@@ -53,15 +53,15 @@
 }
 
 .hero-title {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 320;
     letter-spacing: -0.025em; /* ตัวอักษรชิดกันนิดๆ */
 }
 
 .hero-description {
     color: var(--text-muted);
-    font-size: 16px;
-    max-width: 320px;
+    font-size: 24px;
+    max-width: 100%;
     margin: 12px auto 0;
 }
 
@@ -80,7 +80,7 @@
     border-radius: 8px;
     font-weight: 600;
     transition: all var(--transition-speed);
-    width: 180px;
+    width: 200px;
     cursor: pointer;
     border: none;
     /* box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25); */
