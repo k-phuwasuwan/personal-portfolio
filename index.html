@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="root.css" />
-    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="layout.css" />
     <link rel="stylesheet" href="navigation.css" />
     <link rel="stylesheet" href="hero-section.css" />
+    <link rel="stylesheet" href="experiecnce.css" />
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
     <link
@@ -19,6 +20,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <!-- Start Header -->
     <header class="glass-effect">
@@ -32,12 +34,13 @@
     </header>
     <!-- End Header -->
 
-    <!-- Start Hero Section -->
+     <main>
+        <!-- Start HeroSection -->
     <section class="hero-section">
       <div class="profile-wrapper">
         <div class="profile-glow"></div>
         <div class="profile-image-container">
-          <img src="/Image/me.jpg"/ class="profile-img">
+          <img src="#" alt="Profile" class="profile-img" />
         </div>
       </div>
 
@@ -50,10 +53,46 @@
         <a href="#" class="btn btn-secondary" target="_blank">Download CV</a>
       </div>
     </section>
-    <!-- End Hero Section -->
-
-    <!-- Start HeroSection -->
-
     <!-- End HeroSection -->
+
+    <!-- Start WorkSection -->
+    <section class="mb-20" id="work">
+      <div class="section-title-row">
+        <h2 class="section-heading">Experience</h2>
+        <span class="material-symbols-outlined icon-accent">terminal</span>
+      </div>
+      <div class="experience-list">
+        <!-- Experience Item 1 -->
+        <div class="experience-card">
+          <div class="card-header">
+            <div>
+              <h3 class="job-role">Senior Web Developer</h3>
+            </div>
+            <span class="date-badge">2024 — Present</span>
+            <p class="university-name">Burapha University</p>
+          </div>
+          <p class="job-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, illo!
+          </p>
+        </div>
+        <!-- Experience Item 2 -->
+         <div class="experience-card">
+            <div class="card-header">
+                <div>
+                    <h3 class="job-role">Coffee Shop</h3>
+                </div>
+                <span class="date-badge">2026 - Present</span>
+            </div>
+            <p class="job-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, officia.</p>
+         </div>
+      </div>
+    </section>
+    <!-- End WorkSection -->
+
+    <!-- Start Skill -->
+     
+    <!-- End Skill -->
+
+     </main>    
   </body>
 </html>
